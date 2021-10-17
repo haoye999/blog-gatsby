@@ -1,14 +1,15 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Haoye Blog`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Haoye`,
+      summary: `who lives and works in Beijing.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `Haoye Blog 记录着 Haoye 的 Thoughts & ideas.`,
+    siteUrl: `https://blog.godhaoye.com/`,
     social: {
-      twitter: `kylemathews`,
+      // twitter: `kylemathews`,
+      github: "haoye999",
     },
   },
   plugins: [
@@ -112,15 +113,15 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Haoye Blog`,
+        short_name: `Haoye`,
         start_url: `/`,
         background_color: `#ffffff`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `static/favicon.jpeg`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-react-helmet`,

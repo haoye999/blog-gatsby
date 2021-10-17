@@ -238,6 +238,10 @@ a:focus {
   text-decoration: none;
 }
 
+pre {
+  border-radius: 10px;
+}
+
 /* Custom classes */
 
 .global-wrapper {

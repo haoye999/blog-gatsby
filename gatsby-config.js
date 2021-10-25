@@ -3,7 +3,7 @@ module.exports = {
     title: `Haoye Blog`,
     author: {
       name: `Haoye`,
-      summary: `who lives and works in Beijing.`,
+      summary: `一只曾经有着梦想的咸鱼，目前在北京工作生活，未来计划逃离这里。`,
     },
     description: `Haoye Blog 记录着 Haoye 的 Thoughts & ideas.`,
     siteUrl: `https://blog.godhaoye.com/`,
